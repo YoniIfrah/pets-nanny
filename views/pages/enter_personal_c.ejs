@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%- include('../partials/head'); %>
+	<link rel="stylesheet" href="styling/index.css"/>
+</head>
+<body class="container">
+
+<%- include('../partials/errorMsg'); %>
+
+<main>
+  <div class="jumbotron">
+	<div id="content">
+		<div class="container">
+			<h3 class="text-dark mb-0" style='font-weight: bolder; font-size: 30px;'>Enter your personal info</h3>
+			</br>
+			<div class="col text-center">
+				<div class="card shadow mb-3">
+					<div class="card-body text-center">
+						<form id='enter-personal-info' action="/personalInfo_client" method="post">
+							<%- include('../partials/NamePhoneAgeEmail'); %>
+							<br>
+							<div class="row">
+								<div class="col">
+									<div class="mb-3"><label class="form-label" for="address"><strong>Address </strong><strong style='color: red !important;'>*</strong><br></label><input style='border-radius: 20px !important;' placeholder= "Enter your address" class="form-control" type="text" name="address"></div>
+								</div>
+								<br>
+								<div class="col">
+									<div class="mb-3"><label class="form-label" for="aboutme"><strong>About me </strong><br></label><input style='border-radius: 20px !important;' placeholder= "Enter your bio" class="form-control aboutme" type="text" name="about_me"></div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-primary btn-sm border rounded-pill float-end align-content-center" id='save' type="submit">Save</button>
+				</form>
+			</div>
+				
+		</div>
+	</div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
+<style>
+	body {
+		font-size: medium !important;
+		margin-top: 50px;
+	}
+
+	.form-control {
+		width: 70% !important;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 15px;
+	}
+	#address{
+		width: 50% !important;
+	}
+	.pcoded {
+		display: none;
+	}
+
+	#save {
+		width: 20%;
+		height: 40px;
+		margin: 10px auto;
+		justify-content: center;
+		display: block;
+		color: #fff;
+		background: #573b8a;
+		font-size: 1em;
+		font-weight: bold;
+		margin-top: 20px;
+		outline: none;
+		border: none;
+		border-radius: 5px;
+		transition: .2s ease-in;
+		cursor: pointer;
+	}
+	#save:hover{
+		background: #6d44b8;
+	}
+
+</style>

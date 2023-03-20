@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&display=swap);
+
+.temp{
+	font-family: "Nunito";
+	height: 100% !important;
+	width: 100%;
+}
+
+img{
+    padding-top: 110px;
+	padding-left: 50px;
+	width: 85%;
+	height: 80%;
+}
+
+.form-title{
+	font-weight: bold;
+}
+
+.form-group label{
+	font-size: x-large !important;
+	/*font-weight: bolder !important;*/
+	padding-left: 5px;
+	/*color: #828282 !important;*/
+}
+.form-control{
+	border-color: #573b8a !important; 
+	border-radius: 20px;
+	background: rgba(255, 255, 255, 0.5) !important;
+	box-shadow: 0px 1px 1px 1px rgba(158, 159, 157, 0.2);
+  
+}
+.btn{
+	width: 100%;
+	height: 40px;
+	justify-content: center;
+	display: block;
+	color: #fff;
+	background: #573b8a;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 10px;
+	outline: none !important;
+	border: none !important;
+	border-radius: 5px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+.btn:hover{
+	background: #573b8a;
+}
+.btn:active{
+	background: #573b8a;
+	border-color: #573b8a !important;
+}
+.primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #573b8a !important;
+	border-color: #573b8a;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #573b8a !important;
+    border-color: #573b8a !important;
+}
+.form-control:focus {
+    color: #282b2f;
+    border-color: rgb(59, 58, 58) !important;
+    outline: 0;
+    box-shadow: 0 1px 1px 1px #573b8a !important;
+	background: #573b8a;
+}
+
+.ml-2, .mx-2 {
+
+    margin-top: 50px;
+	padding: 20px 20px 20px 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	width: 945px;
+
+}

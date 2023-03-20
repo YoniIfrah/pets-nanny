@@ -1,0 +1,15 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es2021": true
+    },
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+		"position": "above",
+		"extends": "eslint:recommended",
+		"max-lines": ["error", {"max": 1500, "skipComments": true, "skipBlankLines": true}]
+    }
+}

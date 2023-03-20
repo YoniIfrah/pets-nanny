@@ -1,0 +1,120 @@
+footer .bottom-nav{
+
+	font-family: "Nunito";
+	background-color: #3E3E3E;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100% !important;
+	max-height: 70px;
+	position: fixed;
+	z-index: 1;
+}
+footer input{
+	background-color:#3E3E3E ;
+	font-family: "Nunito";
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	margin-top: 0;
+	text-decoration: none;
+	border: none;
+    cursor: pointer;
+		
+}
+footer .bottom-nav .container{
+	display: flex;
+	justify-content: space-between !important;
+}
+footer .copyright-text{
+	font-family: "Nunito";
+	background-color: #2B2B2B;
+	color: #E0E0E0;
+	height: 60px;
+	font-size: 10px;
+	justify-content: center;
+	letter-spacing: 0.4px;
+	line-height: 22px;
+	align-items: center;
+}
+
+footer p{
+	text-align: center;
+}
+
+
+footer button { 
+	background-color:#3E3E3E ;
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.5px;
+	line-height: 26px;
+	margin-top: 0;
+	text-decoration: none;
+	border: none;
+}
+
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /*Full height */
+	overflow: auto; /* Enable scroll if needed */
+  }
+  
+  /* Modal Content */
+.modal-content {
+    background-color: #ffff;
+    margin:  auto;
+    padding-right: 30px;
+    padding: 20px;
+	border-radius: 15px;
+	border-color: none;
+    width: 40%;
+    text-align: center;
+    font-size: 15px;
+	margin-left: 30%;
+
+}
+
+
+footer .modal-contentt .close {
+	float: left;
+}
+
+footer h1{
+	color: #573b8a;
+	font-weight: bolder;
+	
+}
+footer h6{
+	font-weight: bolder;
+	font-size: large;
+	
+}
+footer h3{
+	font-weight: bolder;
+	font-size: large;
+	
+}
+/* The Close Button */
+footer .close {
+	text-align: left;
+	color: black;
+	float: left;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+footer .close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}

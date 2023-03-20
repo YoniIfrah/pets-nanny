@@ -1,0 +1,48 @@
+{
+  "homepage": "",
+  "name": "pets_nanny",
+  "version": "1.0.0",
+  "description": "pets_nanny",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "mocha tests/*.spec.js --color",
+    "lint": "eslint --ext js,jsk --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coralavital/pets_nanny.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coralavital/pets_nanny/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-flash-messages": "^0.1.1",
+    "express-session": "^1.17.3",
+    "feather": "^0.0.6",
+    "feather-icons": "^4.29.0",
+    "firebase": "^9.7.0",
+    "firebase-admin": "^10.2.0",
+    "firestore": "^1.1.6",
+    "fullcalendar": "^5.11.0",
+    "heroku": "^7.60.2",
+    "multer": "^1.4.4",
+    "save": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "chart.js": "^3.7.1",
+    "eslint": "^8.15.0",
+    "gh-pages": "^4.0.0",
+    "mocha": "^10.0.0"
+  }
+}
